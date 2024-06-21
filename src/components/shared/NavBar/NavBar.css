@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne+Mono&family=VT323&display=swap');
+
+
+.logo {
+  box-shadow: 10px 10px 10px rgba(0, 128, 0, 0.702);
+  color: rgba(0, 128, 0, 0.702);
+  font-family: 'Syne Mono', monospace;
+  font-weight: 700;
+  margin: 1.1rem;
+}
+
+.link {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 128, 0, 0.702);
+  color: rgba(0, 128, 0, 0.702);
+  font-family: 'Syne Mono', monospace;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: rgba(0, 128, 0, 0.702);
+  color: white;
+  transition-delay: 80ms;
+}
+
+.link:active {
+  background-color: #FFB81C;
+  color: rgba(0, 128, 0, 0.702);
+  transition-delay: 80ms;
+}
+
+@media screen and (max-width: 1151px) {
+  .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,7 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
 
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne+Mono&family=VT323&display=swap" rel="stylesheet">
 
 /*   line-height: 1.5; */
 /*   font-weight: 400; */
