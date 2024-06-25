@@ -1,8 +1,7 @@
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from '../pages/HomePage'
-import AboutPage from '../pages/AboutPage';
-import NotFoundPage from '../pages/NotFoundPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import AboutPage from "../pages/AboutPage";
+import NotFoundPage from "../pages/NotFoundPage";
 
 const BrowserRoutes = () => {
   return (
@@ -14,6 +13,6 @@ const BrowserRoutes = () => {
       </Routes>
     </Router>
   );
-}
+};
 
-export default BrowserRoutes
+export default BrowserRoutes;
