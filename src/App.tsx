@@ -1,28 +1,14 @@
+// TODO: Move add game functionality to a button instead of a page
+// TODO: Move the game list to a page
+// TODO: Move the update game functionality to a button instead of a page
+// TODO: Move the delete game functionality to a button instead of a page
+// TODO: Maybe Move over to IGDB API
 // src/App.js
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage';
-import NotFoundPage from './pages/NotFoundPage';
-
+import BrowserRoutes from "./navigation/BrowserRoutes";
+import "./App.css";
 
 function App() {
-
-  function sayHello(messsage: string) {
-    console.log(`Hello ${messsage}`)
-  }
-
-  sayHello(', World!')
-
-
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
-    </Router>
-  );
+  return <BrowserRoutes />;
 }
 
 export default App;
