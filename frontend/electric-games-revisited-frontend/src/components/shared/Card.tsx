@@ -1,5 +1,5 @@
-import React from "react";
-import Rating from "./Rating";
+import React from 'react';
+import Rating from './Rating';
 
 interface CardProps {
   image: string;
@@ -7,7 +7,7 @@ interface CardProps {
   description: string;
   id: string;
   genre: string;
-  rating: string[];
+  rating: number;
   platform: string[];
 }
 
@@ -27,9 +27,10 @@ const Card: React.FC<CardProps> = ({
       <p className="text-white">{description}</p>
       <p className="text-sm text-white">id: {id}</p>
       <p className="text-sm text-white">genre: {[genre]}</p>
-
+      <Rating value={rating} rating={rating} />
+      {/* <p className="text-sm text-white">rating: {rating}</p> */}
       <p className="text-sm text-neutral-200">
-        platform: [{platform.join(", ")}]
+        platform: [{platform.join(', ')}]
       </p>
     </div>
   );

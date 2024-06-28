@@ -1,0 +1,15 @@
+{
+  "tabWidth": 4,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "none",
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "csharp": {
+    "sortUsings": true,
+    "style": {
+      "typeSpace": true
+    }
+  }
+}
